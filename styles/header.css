@@ -1,4 +1,9 @@
 header {
+    & a {
+        color: var(--text-color-secondary);
+        font-weight: var(--fw-md);
+    }
+
     & a:first-child {
         margin-right: auto;
     }
